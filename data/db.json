@@ -1,0 +1,57 @@
+{
+  "admins": [
+    {
+      "email": "admin@alessandroenterprises.com",
+      "password": "Admin@2026",
+      "name": "Alessandro Admin"
+    }
+  ],
+  "users": [],
+  "requests": [
+    {
+      "id": "REQ-1001",
+      "customerName": "Martha Banda",
+      "phone": "+260 977 100 001",
+      "email": "martha@example.com",
+      "serviceType": "Soft Loans",
+      "status": "Pending",
+      "assignedTo": "Unassigned",
+      "priority": "High",
+      "date": "2026-06-20",
+      "notes": "Requested K4,500 short-term loan for shop inventory."
+    }
+  ],
+  "messages": [
+    {
+      "id": "conv-1",
+      "customer": "Martha Banda",
+      "service": "Soft Loans",
+      "unread": true,
+      "messages": [
+        {
+          "id": "m1",
+          "customer": "Martha Banda",
+          "text": "Hello, I want to know my loan status.",
+          "from": "customer"
+        }
+      ]
+    }
+  ],
+  "emails": [
+    {
+      "id": "em1",
+      "sender": "customer@example.com",
+      "subject": "Loan request follow up",
+      "date": "2026-06-20",
+      "body": "Please confirm my application.",
+      "archived": false,
+      "replied": false
+    }
+  ],
+  "settings": {
+    "adminName": "Alessandro Admin",
+    "adminEmail": "alessandrosenterprises@gmail.com",
+    "categories": "Soft Loans, Barbershop, Mobile Money, Elite Fashion, Tech Solutions",
+    "templates": "Thank you for contacting Alessandro Enterprises. We will respond shortly."
+  }
+}
